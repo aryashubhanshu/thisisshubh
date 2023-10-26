@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Remix Icon CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Swiper js CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+    <title>Shubhanshu Arya | About</title>
+
+</head>
+
+<body>
+    <!-- *loader -->
+    <div id="loader">
+        <h1>0%</h1>
+    </div>
+    <!-- *Custom cursor -->
+    <!-- <div class="cursor"></div> -->
+
+    <!-- *Header Section* -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Assets/logo.png" alt="">
+            </div>
+            <div class="navitems">
+                <a href="#hero" onclick="lenis.scrollTo('#hero')" class="item">Home</a>
+                <a href="#about" onclick="lenis.scrollTo('#about',{offset:-120})" class="item">About</a>
+                <a href="#" class="item">Projects</a>
+                <a href="#" class="item ser">Profiles</a>
+                <a href="#contact" onclick="lenis.scrollTo('#contact')" class="contact">Get in touch<i class="ri-arrow-right-line"></i></a>
+            </div>
+        </nav>
+        <div class="menu-tgl">
+            <i class="ri-menu-3-line menu" id="bars"></i>
+            <i class="fa-solid fa-xmark" id="cross" style="color: #000000;"></i>
+        </div>
+        <div class="profiles">
+            <div class="profiles-items">
+                <a href="https://leetcode.com/_shubh_/" class="item">LeetCode</a>
+                <a href="https://auth.geeksforgeeks.org/user/_shubh_" class="item">GeeksForGeeks</a>
+                <a href="https://www.codechef.com/users/aryashubhanshu/" class="item">CodeChef</a>
+            </div>
+            <div class="profiles-items">
+                <a href="https://github.com/aryashubhanshu" class="item">GitHub</a>
+                <p class="visit">Visit</p>
+                <a href="https://www.codingninjas.com/studio/profile/aryashubhanshu" class="item">Coding Ninjas</a>
+            </div>
+            <div class="profiles-items">
+                <a href="https://www.linkedin.com/in/shubharya/" class="item">LinkedIn</a>
+                <a href="https://twitter.com/ShubhanshuSays" class="item">X (Twitter)</a>
+                <a href="mailto:aryashubhanshu1@gmail.com" class="item">Mail</a>
+            </div>
+        </div>
+    </header>
+    <div class="menuitems">
+        <a href="#hero" class="item">Home</a>
+        <a href="#about" class="item">About</a>
+        <a href="#" class="item">Projects</a>
+        <a href="#" class="item ser">Profiles</a>
+        <a href="#contact" class="item">Get in touch</i></a>
+    </div>
+
+    <!-- *Page-1* -->
+    <section id="hero" class="hero">
+        <div class="img-section">
+            <div class="firstsec">
+                <img src="./Assets/Hero-1.webp" class="hero-1 hero-img image" id="hero1" alt="">
+            </div>
+            <div class="secsec">
+                <img src="./Assets/Hero-2.webp" alt="" class="hero-2 hero-img image">
+                <img src="./Assets/Hero-3.webp" alt="" class="hero-3 hero-img image">
+            </div>
+        </div>
+        <div class="txt-section">
+            <h1>Shubhanshu Arya</h1>
+            <p class="hero-head">
+                <span>aspiring sde . building djinni</span> <br>
+                <span>connect</span>
+            </p>
+            <a href="#" id="find-more" class="more">
+                Find out more
+                <i class="ri-arrow-right-line arrow"></i>
+            </a>
+        </div>
+    </section>
+    <section class="MobileSwiper">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./Assets/Hero-1.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/Hero-2.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/Hero-3.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- *Page-2* -->
+    <section id="about" class="page-2">
+        <div class="container">
+            <div class="line-1">
+                <div class="dot"></div>
+                <h3>An Inspiring Ace</h3>
+            </div>
+            <div class="line-2">
+                Skilled in the ways of code, I'm an aspiring Software Enginner with meticulous attention to detail and a
+                <span>never-ending</span> thirst of knowledge.
+            </div>
+            <a href="https://docs.google.com/document/d/1Ok5hE7Q9CrfOsyYv8_SyNXpRWrgO55CywHbb-Nk5v8M/edit?usp=sharing" class="more about">
+                Download Resume
+                <i class="ri-arrow-right-line arrow"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- *Page-3* -->
+    <section class="page-3">
+        <div class="left">
+            <img id="P1" src="./Assets/page-2-1.webp" alt="">
+            <img id="P2" src="./Assets/page-2-2.webp" alt="">
+            <img id="P3" src="./Assets/page-3-3.webp" alt="">
+            <img id="P4" src="./Assets/page-2-4.webp" alt="">
+        </div>
+        <div class="right">
+            <div class="txtCont">
+                <p class="txtcontent">
+                    Explore my <Span>Projects</Span>
+                </p>
+                <div class="card" data-link="https://recollect-app.vercel.app/sign-in">
+                    <img src="./assets/2.webp" alt="project-image" class="project-image">
+                    <div class="desc">
+                        <h3>ReCollect</h3>
+                        <h4>Full-Stack Social Media Application</h4>
+                    </div>
+                    <img src="./assets/arrow-view.webp" alt="view" class="arrow-view">
+                </div>
+                <div class="card" data-link="https://acc-mobile-store.vercel.app/">
+                    <img src="./assets/project2.webp" alt="project-image" class="project-image">
+                    <div class="desc">
+                        <h3>Mobile Store</h3>
+                        <h4>eCommerce Web Application</h4>
+                    </div>
+                    <img src="./assets/arrow-view.webp" alt="view" class="arrow-view">
+                </div>
+                <div class="card"data-link="https://github.com/aryashubhanshu/Object-Detection-ML">
+                    <img src="./assets/project3.webp" alt="project-image" class="project-image">
+                    <div class="desc">
+                        <h3>Object Detection</h3>
+                        <h4>Image Processing Machine Learning Model</h4>
+                    </div>
+                    <img src="./assets/arrow-view.webp" alt="view" class="arrow-view">
+                </div>
+                <div id="service">
+                    <img src="./Assets/User.webp" alt="">
+                    <a href="https://github.com/aryashubhanshu?tab=repositories" class="more more2">
+                        See all projects
+                        <i class="ri-arrow-right-line arrow"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- *Page-5* -->
+    <section class="page-5">
+        <div class="container">
+            <div class="posts">
+                <a href="https://leetcode.com/_shubh_/" id="post1" class="post">
+                    <img id="postimg" src="./Assets/Post-2.webp" alt="">
+                    <div class="wrapper-txt">
+                        <p class="topic">Consistency is the Key</p>
+                        <div class="view">
+                            <p>Coding Journeys</p>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </div>
+                    <img class="plogo" src="./Assets/Post-1-logo.svg" alt="">
+                </a>
+                <a href="#" id="post1" class="post">
+                    <img id="postimg" src="./Assets/Post-1.webp" alt="">
+                    <div class="wrapper-txt">
+                        <p class="topic">
+                            Embracing Elegant UI</p>
+                        <div class="view">
+                            <p>Elegance in Pixels</p>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </div>
+                    <img class="plogo" src="./Assets/logo.png" alt="">
+                </a>
+            </div>
+            <div id="service">
+                <img src="./Assets/User.webp" alt="">
+                <p class="more more2">
+                    UI Enthusiast, Problem-Solver, and Lifelong Learner
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- *page-7 -->
+    <section id="contact" class="page-7">
+        <div class="touch">
+            <p class="info">Call <span class="underline">Shubhanshu</span> on +91 93500-32205 or email aryashubhanshu1@gmail.com to discuss how I can
+                help you.</p>
+            <div id="service" class="callback">
+                <img src="./Assets/profile.png" alt="">
+                <a href="mailto:aryashubhanshu1@gmail.com" class="more more2">
+                    Write to me
+                    <i class="ri-arrow-right-line arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- *footer -->
+    <footer>
+        <div class="Container">
+            <div class="top">
+                <div class="collab col">
+                    <p id="txt">Let's Be <span>Digital</span> Buddies! </p>
+                    <div id="gomore">
+                        <p>Let's talk</p>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+                <div class="links col">
+                    <div class="items">
+                        <p>Find me @</p>
+                        <a href="https://www.linkedin.com/in/shubharya/">LinkedIn</a>
+                        <a href="https://twitter.com/ShubhanshuSays">Twitter</a>
+                        <a href="https://github.com/aryashubhanshu">GitHub</a>
+                    </div>
+                    <div class="items">
+                        <p>Explore</p>
+                        <a href="#">Work</a>
+                        <a href="#">Hobbies</a>
+                        <a href="#">Career</a>
+                    </div>
+                </div>
+                <div class="connect col">
+                    <img src="./Assets/connect.svg" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <div id="logo">
+                    this is shubh<span></span>
+                </div>
+                <div class="credit">
+                    <p>&copy; <script>document.write( new Date().getFullYear() );</script> this is shubh. | Shubhanshu Arya. All rights reserved.</p>
+                    <a href="https://github.com/aryashubhanshu"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Lenis CDN -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script> 
+
+    <!-- Custom Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
